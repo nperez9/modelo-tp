@@ -1,0 +1,150 @@
+/*
+TwinBlue -> #234567
+TwinGreen -> #299c72
+*/
+@import url('./font-awesome/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Numans');
+
+/*** Estilos Generales ***/
+body{
+	background-color: #222!important; 
+	font-family: 'Numans', sans-serif!important;
+}
+
+header{
+	padding-bottom: 20px;
+}
+
+.container{
+	background-color: white; 
+}
+
+.id_campo{ 
+	display:none; 
+}
+
+.warning{
+	display: block;
+	font-size: 12px;
+	color: grey; 
+}
+
+/***
+* Header 
+***/
+
+.principal{
+	font-family: 'Montserrat', cursive;
+	font-size: 26px;
+	color: #333;
+}
+
+
+/** Lista **/
+.new-item{
+	float: right;
+    margin-right: 20px;
+}
+
+.registro{
+	transition: all 0.3s ease-in;
+}
+
+.registro:hover{
+	color: #eee;
+	background-color: #444!important;
+}
+
+.codigo{
+	text-align: center; 
+}
+
+/* Add */
+
+.super-container{
+	padding: 0 10px 0 10px;
+}
+
+.super-textbox{
+	height: 200px!important;
+    margin: 0 0 20px;
+    border: solid rgba(0, 0, 0, 0.29) 1px;
+}
+
+.picker{
+	display: block; 
+}
+
+.table-titulo{
+	font-family: 'Montserrat', cursive;
+}
+
+.btn-guardar{
+	margin: 10px auto;
+}
+.btn-guardar > input{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+.super-label{
+    display: block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.checkbox>label {
+    display: block;
+}
+
+.power-checkbox{
+	height: auto; 
+	width: 100%; 
+	display: block;
+	margin: 20px 0!important;  
+}
+
+.colorbox{
+	display: inline-block;
+	width: 30px;
+	height: 30px; 
+	padding: 2px; 
+	margin-right: 10px; 
+}
+
+.box-color{
+	display: block; 
+	width: 30px;
+    height: 30px;
+	border: solid 1px black; 
+}
+
+.color-picker{
+	margin: 0 !important; 
+	/*position: relative !important; */ 
+}
+
+#destacado-picker{
+	margin: 0 !important;
+}
+
+/** 
+///////////////////////////////
+	Footer
+//////////////////////////////
+ /***/
+
+ .copyrigth{
+ 	float: right;
+ 	color: #234567;
+ }
+
+ .copyrigth > a{
+ 	color: #299c72;
+ }

@@ -1,0 +1,1117 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700');
+
+@font-face {
+    font-family: 'fonartoregular';
+    src: url('../fonts/fonarto-webfont.woff2') format('woff2'),
+         url('../fonts/fonarto-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+  margin:  0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+.show_hide {
+display: none;
+}
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    background: white !important;
+}
+section {
+    float: left;
+    width: 100%;
+    margin-top: 35px;
+}
+h3 {
+    color: #983365;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #4d4d4d;
+}
+.NavButtonDsk.active {
+    background: #983365;
+}
+.NavButtonDsk.active a{
+    color: white;
+}
+nav {
+    float: left;
+    width: 100%;
+    height: 120px;
+    background: white;
+    border-bottom: 5px solid #983365;
+    transition: all 0.4s ease;
+}
+.sticky .ContactoParte:nth-of-type(2) {
+    height: 50px;
+    transition: all 0.4s ease;
+}
+.sticky .ContactoParte:nth-of-type(1) {
+    height: 0px;
+    overflow: hidden;
+    border-bottom: none;
+    transition: all 0.4s ease;
+}
+.sticky {
+    position: fixed;
+    height: 55px;
+    z-index: 40;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+.sticky .ContainerLogoNav {
+    width: 8%;
+    transition: all 0.4s ease;
+}
+.AjActive{
+    height: 140px;
+    transition: all 0.4s ease;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
+.ContainerLogoNav {
+    float: left;
+    width: 13%;
+}
+.ContactoButtonNav {
+    float: right;
+    width: 85%;
+}
+.contObscuro {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.45);
+    -ms-display: flex;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(152, 51, 101);
+    justify-content: center;
+    opacity: 0;
+    z-index: 5;
+    transition: all 0.3s linear;
+}
+.ContimagenProducto:hover img {
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    transform: scale(1.15);
+    transition: all 1s ease;
+    z-index: -1;
+}
+.volverAtras .fa {
+    margin-right: 15px;
+    color: rgb(152, 51, 101);
+}
+.volverAtras {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 2px solid;
+    padding-bottom: 20px;
+    color: #4d4d4d;
+    text-decoration: none;
+    display: block;
+}
+.ContenedorUnicoProd {
+    float: left;
+    width: 100%;
+}
+.colProdImagenBig img {
+    width: 100%;
+}
+.DatosDeProdUnico {
+    float: left;
+    width: 45%;
+}
+.TituloProd {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #bdbdbd;
+    padding-bottom: 20px;
+    margin-bottom: 19px;
+}
+.titleProdBig {
+    text-align: left;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0px;
+}
+.prcioProdBig {
+    text-align: left;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(152, 51, 101);
+    margin-top: 10px;
+}
+.btnProdBig {
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 8px;
+    text-decoration: none;
+    color: white;
+    background: rgb(152, 51, 101);
+    transition: all 0.3s linear;
+}
+.generoProdBig {
+    text-align: left;
+    margin-bottom: 5px;
+}
+.detalleTalle:nth-last-child(1) {
+    margin-right: 0;
+}
+.detalleTalle {
+    float: left;
+    width: 35px;
+    border: 1px solid #983365;
+    height: 35px;
+    -ms-display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    font-weight: 800;
+    color: #983365;
+}
+.containerTalles {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+.seccionDentroDeSeccion:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    width: 7px;
+    height: 7px;
+    background: rgb(152, 51, 101);
+    border-radius: 50%;
+}
+.seccionDentroDeSeccion {
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+}
+.detalleProdBig {
+    text-align: left;
+    float: left;
+    font-size: 18px;
+}
+.detalleProdBigTitle {
+    text-align: left;
+    font-weight: 800;
+    font-size: 18px;
+    float: left;
+    margin-right: 10px;
+}
+.colProdImagenBig {
+    float: left;
+    width: 50%;
+    height: 575px;
+    margin-right: 5%;
+    border: 2px solid rgb(152, 51, 101);
+    overflow: hidden;
+}
+.contObscuro:hover {
+    opacity: 1;
+    transition: all 0.3s linear;
+    align-items: center;
+}
+a.BuyButton {
+    border: 1px solid rgba(0, 0, 0, 0.48);
+    color: rgba(0, 0, 0, 0.69);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 5px;
+}
+.contObscuro > div:hover a {
+    color: white;
+    border-color: white; 
+}
+.contObscuro > div:hover {
+    background: rgb(152, 51, 101);
+    transition: all 0.3s linear;
+    transform: scale(1.2);
+}
+.contObscuro > div {
+    background: rgba(255, 255, 255, 0.78);
+    padding: 11px 6px;
+    transition: all 0.5s linear;
+}
+.ContactoParte p .fa {
+    margin-right: 10px;
+    color: #983365;
+}
+.ContainerGeneral {
+    width: 1100px;
+    margin: 0 auto;
+}
+.ContainerBtnNav {
+    float: right;
+    width: auto;
+    height: auto;
+}
+.NavButtonDsk {
+    padding: 0px 10px;
+    height: 100%;
+    -ms-display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    float: right;
+    position: relative;
+}
+.ContactoParte p:nth-of-type(2) {
+    margin-right: 25px;
+}
+.ContactoParte:nth-of-type(1) {
+    border-bottom: 1px solid #4d4d4d;
+    height: 50px;
+}
+.ContactoParte p {
+    float: right;
+    font-size: 18px;
+    font-weight: 600;
+    color: #4d4d4d;
+    margin-top: 13px;
+}
+.ContactoParte:nth-of-type(2) {
+    height: 70px;
+}
+.ContactoParte {
+    float: right;
+    height: 60px;
+    width: 100%;
+}
+.NavButtonDsk:hover {
+    background: rgb(152, 51, 101);
+    color: white;
+    transition: background 0.2s linear;
+}
+.ContenedorProducto {
+    float: left;
+    width: 24%;
+    overflow: hidden;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+.ContimagenProducto img {
+    width: 100%;
+    height: auto;
+        transition: all 1s ease;
+}
+.btnProdBig:hover {
+    transform: scale(1.1);
+    transition: all 0.3s linear;
+    background: #4d4d4d;
+}
+.ContimagenProducto {
+    position: relative;
+    overflow: hidden;
+}
+.ContTextProducto {
+    float: left;
+    width: 100%;
+    background: white;
+    padding: 10px 0px;
+    border: 2px solid rgb(152, 51, 101);
+}
+.ContTextProducto p {
+    color: black;
+    font-size: 20px;
+}
+p.precio {
+    font-weight: bold;
+    color: rgb(152, 51, 101);
+    font-size: 23px;
+    margin-top: 10px;
+}
+.ContenedorProducto:nth-last-child(1) {
+    margin-right: 0%;
+}
+.NavButtonDsk > a {
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    height: 100%;
+    color: #983365;
+    text-transform: uppercase;
+    text-decoration: none;
+    -ms-display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s linear;
+}
+.NavButtonDsk:hover > a {
+    color: white;
+}
+header {
+    float: left;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.TextHeaderContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background: red; */
+    z-index: 2;
+    text-align: center;
+    -ms-display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ContainerTextoHeader h3 {
+    color: white;
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 3vw;
+    text-shadow: 2px 2px 1px black;
+}
+.ContainerTextoHeader p {
+    font-family: 'Raleway';
+    font-size: 1.8vw;
+    line-height: 2vw;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+.owl-carousel img {
+}
+.ContainerTextoHeader {
+    width: 700px;
+}
+.BtnServicios:hover {
+    transform: scale(1.15);
+    transition: all 0.15s linear;
+}
+.BtnServicios {
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background: #0a7fbf;
+    padding: 15px;
+    font-size: 19px;
+    transition: all 0.3s linear;
+}
+.customNextBtn {
+    right: 50px;
+}
+.customPrevBtn {
+    left: 50px;
+}
+.customNextBtn, .customPrevBtn {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 45%;
+    /* background: #983365; */
+    border: 3px solid #983365;
+    border-radius: 50%;
+    z-index: 3;
+    -ms-display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.15s linear;
+}
+.customNextBtn, .customPrevBtn .fa {
+    color: #983365;
+    font-size: 15px;
+}
+.customNextBtn:hover {
+    transform: scale(1.3);
+    transition: all 0.15s linear;
+}
+.customPrevBtn:hover {
+    transform: scale(1.3);
+    transition: all 0.15s linear;
+}
+.SeparadorSeccion {
+    float: left;
+    width: 100%;
+    padding: 15px 0;
+    background: #0a7fbf;
+    background-image: url(../img/donate-shadow.png);
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+.SeparadorSeccion h3 {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 19px;
+    font-family: 'Raleway';
+}
+p {
+    color: #4d4d4d;
+    text-align: center;
+}
+.conTexto {
+    float: left;
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+.centradoVertical {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+    -ms-display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.colTercera:nth-last-child(1) {
+    margin-right: 0;
+}
+.colTercera:hover {
+    transition: all 0.1s ease-in;
+    box-shadow: 0px 0px 15px #e2e2e2;
+}
+.colTercera {
+    padding: 10px;
+    border-radius: 10px;
+    float: left;
+    width: 32.3%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 1.5%;
+    transition: all 0.5s ease-in;
+}
+.circleBlue {
+    width: 150px;
+    height: 150px;
+    background: #0a7fbf;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    overflow: hidden;
+    position: relative;
+}
+.circleBlue img {
+    width: 100px;
+}
+.circleBlue {
+    width: 150px;
+    height: 150px;
+    background: #0a7fbf;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    overflow: hidden;
+    position: relative;
+    -ms-display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2.TitleService {
+    color: #0a7fbf;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.ServiceText {
+    display: block;
+    width: 300px;
+    min-height: 200px;
+    margin: 0 auto;
+}
+.centradoFooterLink {
+    display: block;
+    width: 251px;
+    margin: 0 auto;
+    border-bottom: 1px solid #983365;
+    padding-bottom: 20px;
+}
+a.footerLink:nth-of-type(3) {
+    margin-right: 0;
+}
+footer {
+    float: left;
+    margin-top: 35px;
+    width: 100%;
+    padding-bottom: 20px;
+    border-top: 5px solid #983365;
+    background: #541937;
+    padding-top: 20px;
+    /* border-top: 5px solid rgb(152, 51, 101); */
+}
+a.footerLink:hover {
+    background: #983365;
+    transition: all 0.2s linear;
+}
+a.footerLink {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #983365;
+    transition: all 0.2s linear;
+}
+.seccionFooter {
+    float: right;
+    width: 100%;
+    margin-top: 10px;
+}
+fot {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    color: #9a4770;
+}
+fot2 {
+    width: 25%;
+    float: left;
+}
+fot2 a {
+    float: left;
+    /* font-family: 'Raleway'; */
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-right: 15px;
+    width: 100%;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.ContIconoFooter {
+    float: right;
+    width: 50%;
+}
+
+.ContIconoFooter img {
+    width: 100%;
+}
+fot a {
+    font-style: normal;
+    color: #319831;
+    text-decoration: underline;
+}
+.SeparadorSeccionImg {
+    float: left;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    position: relative;
+}
+.SeparadorSeccionImg img {
+    position: absolute;
+    min-width: 100%;
+    top: 50%;
+    left: 50%;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+/*SERVICIOS*/
+p.TitleSectionServ {
+    float: left;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    text-shadow: 2px 2px 1px black;
+    margin-top: 18px;
+}
+.ImgSeccion {
+    float: left;
+    width: 50px;
+    position: relative;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.ImgSeccion img {
+    width: 100%;
+}
+.SeparadorSeccionImg img {
+    position: absolute;
+    min-width: 100%;
+    top: 50%;
+    left: 50%;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+.imagenDeServicio {
+    width: 100%;
+    float: left;
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #0a7fbf;
+}
+.ServicioContainers {
+    float: left;
+    width: 48%;
+    margin-top: 4%;
+}
+.imagenDeServicio img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    max-width: 200%;
+    max-height: 200%;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.AbsoluteBtn {
+    position: absolute;
+    font-size: 15px;
+    padding: 10px;
+    bottom: 10px;
+    left: 30%;
+}
+.textDescriptServ p {
+    text-align: left;
+    font-weight: 100;
+    font-size: 16px;
+}
+.textDescriptServ {
+    float: left;
+    width: 100%;
+}
+.ServicioContainers:nth-of-type(odd) {
+    margin-right: 4%;
+}
+.desplegableBtn a:nth-last-child(1) {
+    border-bottom: none;
+}
+.desplegableBtn a:hover {
+    background: white;
+    color: #7ab9dc;
+}
+.desplegableBtn a {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 600;
+    display: block;
+    color: #ffffff;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+}
+i.fa.fa-sort-desc {
+    font-size: 18px;
+    position: absolute;
+    top: 39%;
+    margin-left: 5px;
+}
+.desplegableBtn {
+    position: absolute;
+    top: 100%;
+    z-index: 5;
+    background: #7ab9dc;
+    width: 120px;
+}
+.ServiceBtn > a {
+    margin-right: 10px;
+}
+
+.ServiceBtn {
+    width: 120px;
+}
+.activeBtn > a {
+    color: white;
+}
+.activeBtn {
+    background: #7ab9dc;
+}
+p.TituloSubra {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    color: #0a7fbf;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #0a7fbf;
+}
+.BloqueTexto {
+    float: left;
+    width: 100%;
+    padding-top: 25px;
+}
+.BloqueTexto p {
+    text-align: left;
+}
+.col-70 {
+    float: left;
+    width: 68%;
+    margin-right: 2%;
+}
+.col-30 img {
+    width: 100%;
+}
+.col-30 {
+    float: left;
+    width: 28%;
+    margin-right: 2%;
+}
+p.titleContactoForm:before {
+    content: "";
+    position: absolute;
+    left: -19px;
+    top: 5px;
+    width: 10px;
+    /* border-bottom: 1px solid red; */
+    height: 10px;
+    border-radius: 50%;
+    background: #983365;
+}
+.col-30 p {
+    text-align: left;
+    margin-bottom: 15px;
+}
+p.titleContactoForm {
+    text-align: left;
+    font-size: 19px;
+    border-bottom: 2px solid #983365;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 15px;
+}
+.Grey70 {
+    background: #e7e7e7;
+}
+.inputContacto {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: 'Raleway';
+}
+.ContactoWeb .col-30 {
+    margin-right: 2%;
+}
+.ContactoWeb .col-70 {
+    margin-right: 0%;
+}
+.formContacto {
+    float: left;
+    width: 100%;
+}
+.marTop {
+    margin-top: 50px;
+}
+li.listaDire {
+    list-style: none;
+    float: left;
+    width: 100%;
+    /* margin-bottom: 10px; */
+}
+.listaDire .fa {
+    color: #983365;
+    font-size: 25px;
+    float: left;
+    margin-right: 10px;
+    width: 25px;
+}
+textarea.inputContacto {
+    height: 200px;
+    font-family: 'Raleway';
+}
+input.SubmitBtn {
+    /* font-family: 'Raleway'; */
+    background: #983365;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+}
+.slidingDiv {
+    display: none;
+}
+@media(max-width: 1120px){
+.ContainerGeneral {
+    width: 800px;
+    margin: 0 auto;
+}
+.AbsoluteBtn {
+    left: 24%;
+}
+.ServiceText {
+    width: 100%;
+    min-height: 250px;
+}
+fot {
+    font-size: 1.2vw;
+}
+fot2 a {
+    font-size: 1.2vw;
+}
+.customNextBtn {
+    right: 10px;
+    background: white;
+}
+.customPrevBtn {
+    left: 10px;
+    background: white;
+}
+header {
+    height: auto;
+}
+}
+@media(max-width: 825px){
+.slidingDiv {
+    display: initial;
+    position: absolute;
+}
+.ContactoParte:nth-of-type(2) {
+    display: none;
+}
+.ContainerLogoNav {
+    width: 138px !important;
+    margin-top: 5px;
+}
+.ContainerBtnNav {
+    display: none;
+}
+nav {
+    height: 92px;
+}
+.ContainerLogoNav {
+    width: 250px;
+    margin-top: 5px;
+}
+.show_hide {
+    float: right;
+    width: 70px;
+    height: 70px;
+    margin-top: 9px;
+    margin-right: 9px;
+    /* border: 2px solid #983466; */
+    background: #993365;
+    -ms-display: flex;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slidingDiv {
+    position: fixed;
+    background: white;
+    margin-top: 0;
+    z-index: 40;
+    height: 100%;
+}
+.show_hide .fa {
+    font-size: 47px;
+    color: #ffffff;
+}
+.sticky .ContainerLogoNav {
+    width: 77px !Important;
+    transition: all 0.4s ease;
+}
+.sticky .show_hide .fa {
+    font-size: 39px;
+    color: #983365;
+}
+.sticky .show_hide {
+    background: #ffffff;
+    width: 37px !Important;
+    height: 37px !important;  
+}
+.ContenedorProducto {
+    float: left;
+    width: 49%;
+    overflow: hidden;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+.ContainerGeneral {
+    width: 100%;
+    /* margin: 0 auto; */
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.ContactoParte {
+    float: right;
+    height: 60px;
+    display: none;
+    width: 100%;
+}
+.NavButtonDsk {
+    width: 100%;
+    float: left;
+    height: 90px;
+    /* padding: 10px; */
+    border-bottom: 2px solid rgba(152, 51, 101, 0.59);
+}
+.ContactoButtonNav {
+    float: right;
+    width: 49%;
+    margin-right: 10px;
+    height: 90px;
+}
+.ContactoParte:nth-of-type(1) {
+    border-bottom: 1px solid #4d4d4d;
+    height: 90px;
+    padding-top: 20px;
+}
+.desplegableBtn {
+    width: 100%;
+}
+.ContainerTextoHeader p {
+    font-size: 16px;
+    line-height: 25px;
+}
+.ContainerTextoHeader {
+    width: 400px;
+}
+.ContainerTextoHeader h3 {
+    font-size: 30px;
+}
+.colTercera {
+    width: 100%;
+    margin-top: 30px;
+}
+.ServiceText {
+    min-height: auto;
+}
+.customNextBtn {
+    display: none;
+}
+.customPrevBtn {
+    display: none;
+}
+.DatosDeProdUnico {
+    width: 35%;
+}
+.colProdImagenBig {
+    width: 60%;
+    height: auto;
+}
+}
+@media(max-width: 750px){
+  .ServicioContainers {
+    width: 100%;
+    margin-right: 0px !important;
+}
+.AbsoluteBtn {
+    left: 50%;
+    transform: translate(-50%) !important;
+}
+.colProdImagenBig {
+    width: 100%;
+    height: auto;
+    margin-right: 0 !Important;
+    margin-bottom: 5%;
+}
+.DatosDeProdUnico {
+    width: 100%;
+}  
+}
+@media(max-width: 635px) {
+    .ContainerTextoHeader p {
+    display: none;
+}
+.ContainerTextoHeader h3 {
+    margin-bottom: 30px;
+}
+fot2 {
+    width: 100%;
+    float: left;
+}
+fot2 a {
+    font-size: 18px;
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+fot {
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #bdbdbd;
+    padding-bottom: 15px;
+}
+.slidingDiv {
+    width: 100%;
+    margin-top: 92px;
+}
+.col-70 {
+    width: 100%;
+    margin-right: 0;
+}
+.contLogo {
+    display: none;
+}
+.col-30 {
+    width: 100%;
+    margin-bottom: 15px;
+}
+input.SubmitBtn {
+    width: 100%;
+    float: right;
+}
+}
+@media(max-width: 485px) {
+    .ContenedorProducto {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    margin-right: 0%;
+    margin-bottom: 1%;
+}
+a.footerLink {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 3px;
+    margin-right: 10px;
+    border: 1px solid #983365;
+    transition: all 0.2s linear;
+}
+.centradoFooterLink {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    border-bottom: 1px solid #983365;
+    padding-bottom: 20px;
+}
+}
